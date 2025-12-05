@@ -32,8 +32,8 @@ See [requirements.txt](requirements.txt) for detailed requirements.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/doctor-rse-app.git
-cd doctor-rse-app
+git clone https://github.com/oussamaouragini/Doctor-RSE.git
+cd Doctor-RSE
 ```
 
 ### 2. Install PHP Dependencies
