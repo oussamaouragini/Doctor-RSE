@@ -1,0 +1,53 @@
+# Doctor RSE App - Requirements
+
+## PHP Requirements
+PHP >= 8.1.0
+- BCMath PHP Extension
+- Ctype PHP Extension
+- cURL PHP Extension
+- DOM PHP Extension
+- Fileinfo PHP Extension
+- JSON PHP Extension
+- Mbstring PHP Extension
+- OpenSSL PHP Extension
+- PCRE PHP Extension
+- PDO PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+
+## Composer Dependencies
+laravel/framework ^10.10
+laravel/sanctum ^3.3
+laravel/tinker ^2.8
+guzzlehttp/guzzle ^7.2
+
+## Development Dependencies
+laravel/breeze ^1.29
+laravel/pint ^1.0
+phpunit/phpunit ^10.1
+fakerphp/faker ^1.9.1
+
+## Node.js Dependencies
+node >= 16.0.0
+npm >= 8.0.0
+
+## Frontend Dependencies
+tailwindcss ^3.1.0
+alpinejs ^3.4.2
+vite ^5.0.0
+axios ^1.6.4
+@tailwindcss/forms ^0.5.2
+autoprefixer ^10.4.2
+postcss ^8.4.31
+laravel-vite-plugin ^1.0.0
+
+## Database
+MySQL >= 5.7 or MariaDB >= 10.3
+
+## Installation Commands
+composer install
+npm install
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+
